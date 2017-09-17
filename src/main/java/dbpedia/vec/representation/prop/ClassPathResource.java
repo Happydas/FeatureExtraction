@@ -26,6 +26,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
+import org.datavec.api.util.ArchiveUtils;
 
 /**
  * Simple utility class used to get access to files at the classpath, or packed into jar.

@@ -6,7 +6,7 @@ import dbpedia.vec.it.embedding.WeightLookupTable;
 import dbpedia.vec.it.embedding.memory.InMemoryLookupTable;
 import dbpedia.vec.it.embedding.learning.ElementsLearningAlgorithm;
 import dbpedia.vec.it.embedding.words.VectorsConfiguration;
-import dbpedia.vec.it.glove.AbstractCoOccurrences;
+import dbpedia.vec.it.globe.AbstractCoOccurrences;
 import dbpedia.vec.it.sequencevector.intface.SequenceIterator;
 import dbpedia.vec.it.sequencevector.series.Sequence;
 import dbpedia.vec.it.sequencevector.series.SequenceElement;

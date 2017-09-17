@@ -11,6 +11,8 @@ import dbpedia.vec.it.sequencevector.intface.SequenceIterator;
 import dbpedia.vec.it.sequencevector.series.Sequence;
 import dbpedia.vec.it.sequencevector.series.SequenceElement;
 import dbpedia.vec.it.word2vec.wordrepo.VocabCache;
+
+import org.apache.commons.lang.math.RandomUtils;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.api.ops.aggregates.Aggregate;
 import org.nd4j.linalg.api.ops.aggregates.impl.AggregateCBOW;

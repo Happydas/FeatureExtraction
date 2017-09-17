@@ -16,12 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- *This class is used as simplifed VocabCache for vocabulary building routines.
- * As soon as vocab is built, all words will be transferred into VocabCache.
- *
- * @author raver119@gmail.com
- */
+
 public class VocabularyHolder implements Serializable {
     private Map<String, VocabularyWord> vocabulary = new ConcurrentHashMap<>();
 

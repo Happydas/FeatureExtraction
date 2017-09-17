@@ -9,11 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-/**
- * Simple class providing compatibility between DocumentIterator/LabelAwareDocumentIterator and LabelAwareIterator
- *
- * @author raver119@gmail.com
- */
+
 public class DocumentIteratorConverter implements LabelAwareIterator {
 
     protected DocumentIterator backendIterator;
