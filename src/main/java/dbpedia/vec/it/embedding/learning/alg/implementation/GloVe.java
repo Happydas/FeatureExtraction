@@ -26,12 +26,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * GloVe LearningAlgorithm implementation for SequenceVectors
- *
- *
- * @author raver119@gmail.com
- */
+
 public class GloVe<T extends SequenceElement> implements ElementsLearningAlgorithm<T> {
 
     private VocabCache<T> vocabCache;

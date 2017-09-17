@@ -4,11 +4,7 @@ package dbpedia.vec.it.globe.count;
 import lombok.Data;
 import dbpedia.vec.it.sequencevector.series.SequenceElement;
 
-/**
- * Simple POJO holding pairs of elements and their respective weights, used in GloVe -> CoOccurrence
- *
- * @author raver119@gmail.com
- */
+
 @Data
 public class CoOccurrenceWeight<T extends SequenceElement> {
     private T element1;

@@ -110,7 +110,7 @@ public class WordVectorSerializer {
      *            for the downloadable model files.
      * @return a {@link Word2Vec} object
      * @throws IOException
-     * @author Carsten Schnober
+
      */
     @Deprecated
     public static Word2Vec loadGoogleModel(File modelFile, boolean binary, boolean lineBreaks) throws IOException {

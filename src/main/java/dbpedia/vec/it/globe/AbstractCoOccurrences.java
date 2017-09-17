@@ -26,14 +26,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-/**
- * This class implements building cooccurrence map for abstract training corpus.
- * However it's performance rather low, due to exsessive IO that happens in ShadowCopyThread
- *
- * PLEASE NOTE: Current implementation involves massive IO, and it should be rewritter as soon as ND4j gets sparse arrays support
- *
- * @author raver119@gmail.com
- */
+
 public class AbstractCoOccurrences<T extends SequenceElement> implements Serializable {
 
     protected boolean symmetric;

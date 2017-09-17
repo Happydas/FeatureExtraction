@@ -3,11 +3,7 @@ package dbpedia.vec.format.tokenization.tokenizer;
 
 
 
-/**
- * Token preprocessing
- * @author Adam Gibson
- *
- */
+
 public interface TokenPreProcess {
 
     /**

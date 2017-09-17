@@ -1,23 +1,10 @@
 package dbpedia.vec.format.senteneiterator;
 
 
-/**
- * A sentence iterator that knows how to iterate over sentence.
- * This can be used in conjunction with more advanced NLP techniques
- * to clearly separate sentences out, or be simpler when as much
- * complexity is not needed.
- * @author Adam Gibson
- *
- */
+
 public interface SentenceIterator {
 
-    /**
-     * Gets the next sentence or null
-     * if there's nothing left (Do yourself a favor and
-     * check hasNext() )
-     *
-     * @return the next sentence in the iterator
-     */
+
     String nextSentence();
 
     /**

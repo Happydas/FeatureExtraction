@@ -7,11 +7,7 @@ import dbpedia.vec.it.word2vec.VocabWord;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This is primitive holder of document, and it's label.
- *
- * @author raver119@gmail.com
- */
+
 @Data
 @ToString(exclude = "referencedContent")
 public class LabelledDocument {

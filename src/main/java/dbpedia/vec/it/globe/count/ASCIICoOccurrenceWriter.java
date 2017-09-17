@@ -9,9 +9,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 
-/**
- * @author raver119@gmail.com
- */
+
 public class ASCIICoOccurrenceWriter<T extends SequenceElement> implements CoOccurrenceWriter<T> {
 
     private File file;

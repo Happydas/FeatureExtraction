@@ -11,12 +11,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Word vectors. Handles operations based on the lookup table
- * and vocab.
- *
- * @author Adam Gibson
- */
+
 public interface WordVectors extends Serializable {
 
     String getUNK();

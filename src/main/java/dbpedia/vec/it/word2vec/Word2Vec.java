@@ -25,11 +25,7 @@ import dbpedia.vec.format.tokenization.tokenizerfactory.TokenizerFactory;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * This is Word2Vec implementation based on SequenceVectors
- *
- * @author raver119@gmail.com
- */
+
 public class Word2Vec extends SequenceVectors<VocabWord> {
     private static final long serialVersionUID = 78249242142L;
 

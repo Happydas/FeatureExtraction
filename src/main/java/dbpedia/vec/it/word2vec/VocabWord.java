@@ -10,11 +10,6 @@ import org.nd4j.shade.jackson.databind.ObjectMapper;
 import java.io.Serializable;
 
 
-/**
- * Intermediate layers of the neural network
- *
- * @author Adam Gibson
- */
 public class VocabWord extends SequenceElement implements Serializable {
 
     private static final long serialVersionUID = 2223750736522624256L;

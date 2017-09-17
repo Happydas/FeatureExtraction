@@ -7,10 +7,7 @@ import dbpedia.vec.format.tokenization.tokenizer.Tokenizer;
 
 import java.io.InputStream;
 
-/**
- * Default tokenizer based on string tokenizer or stream tokenizer
- * @author Adam Gibson
- */
+
 public class DefaultTokenizerFactory implements TokenizerFactory {
 
     private TokenPreProcess tokenPreProcess;

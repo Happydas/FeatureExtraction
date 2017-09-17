@@ -11,9 +11,7 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 
-/**
- * @author raver119@gmail.com
- */
+
 public class BinaryCoOccurrenceWriter<T extends SequenceElement> implements CoOccurrenceWriter<T> {
     private File file;
     private DataOutputStream outputStream;

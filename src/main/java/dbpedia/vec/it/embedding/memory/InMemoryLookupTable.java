@@ -30,12 +30,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 
-
-/**
- * Default word lookup table
- *
- * @author Adam Gibson
- */
 public class InMemoryLookupTable<T extends SequenceElement> implements WeightLookupTable<T> {
 
     private static final Logger log = LoggerFactory.getLogger(InMemoryLookupTable.class);

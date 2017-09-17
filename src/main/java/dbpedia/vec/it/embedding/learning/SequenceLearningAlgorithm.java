@@ -11,11 +11,7 @@ import org.nd4j.linalg.api.ndarray.INDArray;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * Implementations of this interface should contain sequence-related learning algorithms. Like dbow or dm.
- *
- * @author raver119@gmail.com
- */
+
 public interface SequenceLearningAlgorithm<T extends SequenceElement> {
 
     String getCodeName();

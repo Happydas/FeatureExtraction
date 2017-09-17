@@ -20,11 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * DM implementation for DeepLearning4j
- *
- * @author raver119@gmail.com
- */
+
 @Slf4j
 public class DM<T extends SequenceElement> implements SequenceLearningAlgorithm<T> {
     private VocabCache<T> vocabCache;

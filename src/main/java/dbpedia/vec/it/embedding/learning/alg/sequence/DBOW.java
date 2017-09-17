@@ -20,9 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * @author raver119@gmail.com
- */
+
 public class DBOW<T extends SequenceElement> implements SequenceLearningAlgorithm<T> {
     protected VocabCache<T> vocabCache;
     protected WeightLookupTable<T> lookupTable;

@@ -2,11 +2,7 @@ package dbpedia.vec.it.globe.count;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-/**
- * Simple circular counter, that circulates within 0...Limit, both inclusive
- *
- * @author raver119@gmail.com
- */
+
 public class RoundCount {
 
     private int limit = 0;

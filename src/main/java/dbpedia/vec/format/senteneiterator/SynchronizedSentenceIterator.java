@@ -2,11 +2,7 @@ package dbpedia.vec.format.senteneiterator;
 
 import lombok.NonNull;
 
-/**
- * Simple synchronized wrapper for SentenceIterator interface implementations
- *
- * @author raver119@gmail.com
- */
+
 public class SynchronizedSentenceIterator implements SentenceIterator {
     private SentenceIterator underlyingIterator;
 

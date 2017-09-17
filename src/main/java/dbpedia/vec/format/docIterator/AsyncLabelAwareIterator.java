@@ -7,9 +7,7 @@ import dbpedia.vec.para.AsyncIterator;
 
 import java.util.Iterator;
 
-/**
- * @author raver119@gmail.com
- */
+
 public class AsyncLabelAwareIterator implements LabelAwareIterator, Iterator<LabelledDocument> {
 
     protected LabelAwareIterator backedIterator;

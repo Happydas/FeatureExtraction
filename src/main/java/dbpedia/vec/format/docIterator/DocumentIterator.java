@@ -4,19 +4,11 @@ import java.io.InputStream;
 import java.io.Serializable;
 
 
-/**
- * Document Iterator: iterate over input streams
- * @author Adam Gibson
- *
- */
+
+
 public interface DocumentIterator extends Serializable {
 
 
-
-    /**
-     * Get the next document
-     * @return the input stream for the next document
-     */
     InputStream nextDocument();
 
     /**

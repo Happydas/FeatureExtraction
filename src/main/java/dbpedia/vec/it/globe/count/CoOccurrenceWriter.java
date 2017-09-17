@@ -2,9 +2,7 @@ package dbpedia.vec.it.globe.count;
 
 import dbpedia.vec.it.sequencevector.series.SequenceElement;
 
-/**
- * Created by fartovii on 25.12.15.
- */
+
 public interface CoOccurrenceWriter<T extends SequenceElement> {
 
     /**

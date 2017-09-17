@@ -23,10 +23,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Common word vector operations
- * @author Adam Gibson
- */
+
 
 public class WordVectorsImpl<T extends SequenceElement> implements WordVectors {
     private static final long serialVersionUID = 78249242142L;

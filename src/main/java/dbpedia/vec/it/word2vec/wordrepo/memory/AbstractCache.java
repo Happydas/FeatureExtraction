@@ -10,12 +10,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- *
- * This is generic VocabCache implementation designed as abstract SequenceElements vocabulary
- *
- * @author raver119@gmail.com
- */
+
 @Slf4j
 public class AbstractCache<T extends SequenceElement> implements VocabCache<T> {
 

@@ -10,10 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 
-/**
- * An inverted index for mapping words to documents
- * and documents to words
- */
+
 public interface InvertedIndex<T extends SequenceElement> extends Serializable {
 
 

@@ -4,12 +4,7 @@ import dbpedia.vec.format.senteneiterator.SentenceIterator;
 
 import java.util.List;
 
-/**
- * SentenceIterator that is aware of its label. This is useful
- * for creating datasets all at once or on the fly.
- *
- * @author Adam Gibson
- */
+
 public interface LabelAwareSentenceIterator extends SentenceIterator {
     /**
      * Returns the current label for nextSentence()

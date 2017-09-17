@@ -6,12 +6,7 @@ import dbpedia.vec.it.sequencevector.intface.SequenceIterator;
 import dbpedia.vec.it.sequencevector.series.Sequence;
 import dbpedia.vec.it.sequencevector.series.SequenceElement;
 
-/**
- * Synchronized version of AbstractSeuqenceIterator, implemented on top of it.
- * Suitable for cases with non-strict multithreading environment, since it's just synchronized wrapper
- *
- * @author raver119@gmail.com
- */
+
 public class SynchronizedSequenceIterator<T extends SequenceElement> implements SequenceIterator<T> {
     protected SequenceIterator<T> underlyingIterator;
 

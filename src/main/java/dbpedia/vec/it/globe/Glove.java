@@ -21,13 +21,7 @@ import dbpedia.vec.format.tokenization.tokenizerfactory.TokenizerFactory;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * GlobalVectors standalone implementation for DL4j.
- * Based on original Stanford GloVe
- * http://www-nlp.stanford.edu/pubs/glove.pdf
- *
- * @author raver119@gmail.com
- */
+
 public class Glove extends SequenceVectors<VocabWord> {
 
     protected Glove() {

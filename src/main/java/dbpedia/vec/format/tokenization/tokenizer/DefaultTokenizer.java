@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-/**
- * Default tokenizer
- * @author Adam Gibson
- */
+
 public class DefaultTokenizer implements Tokenizer {
 
     public DefaultTokenizer(String tokens) {

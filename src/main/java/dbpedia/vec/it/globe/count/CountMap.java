@@ -9,13 +9,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Drop-in replacement for CounterMap
- *
- * WORK IN PROGRESS, PLEASE DO NOT USE
- *
- * @author raver119@gmail.com
- */
+
 public class CountMap<T extends SequenceElement> {
     private volatile Map<Pair<T, T>, AtomicDouble> backingMap = new ConcurrentHashMap<>();
 

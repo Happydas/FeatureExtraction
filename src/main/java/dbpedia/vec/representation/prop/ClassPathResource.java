@@ -28,13 +28,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import org.datavec.api.util.ArchiveUtils;
 
-/**
- * Simple utility class used to get access to files at the classpath, or packed into jar.
- * Based on Spring ClassPathResource implementation + jar internals access implemented.
- *
- *
- * @author raver119@gmail.com
- */
+
 public class ClassPathResource {
 
     private String resourceName;

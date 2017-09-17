@@ -11,9 +11,7 @@ import dbpedia.vec.format.senteneiterator.SentenceIterator;
 import java.io.File;
 import java.io.PrintWriter;
 
-/**
- * @author raver119@gmail.com
- */
+
 public class ASCIICoOccurrenceReader<T extends SequenceElement> implements CoOccurenceReader<T> {
     private File file;
     private PrintWriter writer;

@@ -11,11 +11,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * This class is used to manage labels/documents syncronization over iterators
- *
- * @author raver119@gmail.com
- */
+
 public class LabelsSource implements Serializable {
     private AtomicLong counter = new AtomicLong(0);
     @Setter
@@ -29,16 +25,7 @@ public class LabelsSource implements Serializable {
 
     }
 
-    /**
-     * Build LabelsSource using string template.
-     * Template can be raw string, in this case document counter will be appended to resulting label.
-     * I.e. "SENT_" template will produce labels SENT_0, SENT_1, SENT_2 etc.
-     *
-     * You can also use %d formatter tag, which will be replaced with counter.
-     * I.e. "SENT_%i_FLOW_1" will produce labels "SENT_0_FLOW_1", "SENT_1_FLOW_1", "SENT_2_FLOW_1" etc
-     *
-     * @param template
-     */
+
     public LabelsSource(@NonNull String template) {
         this.template = template;
         if (this.template.contains("%d"))

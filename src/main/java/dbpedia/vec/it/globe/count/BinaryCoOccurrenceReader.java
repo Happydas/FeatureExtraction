@@ -19,11 +19,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Binary implementation of CoOccurenceReader interface, used to provide off-memory storage for cooccurrence maps generated for GloVe
- *
- * @author raver119@gmail.com
- */
+
 public class BinaryCoOccurrenceReader<T extends SequenceElement> implements CoOccurenceReader<T> {
     private VocabCache<T> vocabCache;
     private InputStream inputStream;

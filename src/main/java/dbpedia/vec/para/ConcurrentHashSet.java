@@ -10,18 +10,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * This is simplified ConcurrentHashSet implementation
- *
- * PLEASE NOTE: This class does NOT implement real equals & hashCode
- *
- * @author raver119@gmail.com
- */
+
 // TODO: add equals/hashcode if needed
 public class ConcurrentHashSet<E> implements Set<E>, Serializable {
     private static final long serialVersionUID = 123456789L;
 
-    // we're using concurrenthashmap behind the scenes
+
     private ConcurrentHashMap<E, Boolean> backingMap;
 
 

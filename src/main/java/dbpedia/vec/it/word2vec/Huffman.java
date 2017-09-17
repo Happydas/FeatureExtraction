@@ -8,11 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 
-/**
- * Huffman tree builder
- * @author Adam Gibson
- *
- */
+
 public class Huffman {
 
     public final int MAX_CODE_LENGTH;

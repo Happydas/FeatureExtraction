@@ -3,12 +3,7 @@ package dbpedia.vec.format.senteneiterator;
 
 import java.io.Serializable;
 
-/**
- * Sentence pre processor.
- * Used for pre processing strings
- *
- * @author Adam Gibson
- */
+
 public interface SentencePreProcessor extends Serializable {
 
     /**

@@ -9,11 +9,7 @@ import dbpedia.vec.it.word2vec.wordrepo.VocabCache;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * Implementations of this interface should contain element-related learning algorithms. Like skip-gram, cbow or glove
- *
- * @author raver119@gmail.com
- */
+
 public interface ElementsLearningAlgorithm<T extends SequenceElement> {
 
     String getCodeName();

@@ -15,12 +15,7 @@ package dbpedia.vec.it.word2vec;
 
         import java.util.Collection;
 
-/**
- * Created by agibsonccc on 10/9/14.
- *
- * Neural net that processes text into wordvectors. See below url for an in-depth explanation.
- * https://deeplearning4j.org/word2vec.html
- */
+
 public class Word2VecRawTextExample {
 
     private static Logger log = LoggerFactory.getLogger(Word2VecRawTextExample.class);

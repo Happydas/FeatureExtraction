@@ -4,11 +4,7 @@ import dbpedia.vec.it.sequencevector.SequenceVectors;
 import dbpedia.vec.it.sequencevector.enums.ListenerEvent;
 import dbpedia.vec.it.sequencevector.series.SequenceElement;
 
-/**
- * This interface describes Listeners to SequenceVectors and its derivatives.
- *
- * @author raver119@gmail.com
- */
+
 public interface VectorsListener<T extends SequenceElement> {
 
     /**

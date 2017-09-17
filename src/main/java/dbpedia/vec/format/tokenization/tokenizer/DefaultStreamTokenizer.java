@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Tokenizer based on the {@link java.io.StreamTokenizer}
- * @author Adam Gibson
- *
- */
+
 public class DefaultStreamTokenizer implements Tokenizer {
 
     private StreamTokenizer streamTokenizer;

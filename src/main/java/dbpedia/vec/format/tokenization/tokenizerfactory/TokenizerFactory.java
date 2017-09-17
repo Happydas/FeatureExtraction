@@ -5,11 +5,7 @@ import dbpedia.vec.format.tokenization.tokenizer.Tokenizer;
 
 import java.io.InputStream;
 
-/**
- * Generates a tokenizer for a given string
- * @author Adam Gibson
- *
- */
+
 public interface TokenizerFactory {
 
     /**

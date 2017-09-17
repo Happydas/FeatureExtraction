@@ -24,11 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * Skip-Gram implementation for dl4j SequenceVectors
- *
- * @author raver119@gmail.com
- */
+
 @Slf4j
 public class SkipGram<T extends SequenceElement> implements ElementsLearningAlgorithm<T> {
     protected VocabCache<T> vocabCache;
